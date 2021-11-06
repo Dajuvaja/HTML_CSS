@@ -25,3 +25,5 @@
 .main-nav__item a::after {
   content: " | ";
 }
+/* La pseudoclase " : " nos ayuda a definir el estilo del estado de un elemento */
+/* Un pseudoelemento " :: " nos ayuda a definir el estilo de una parte específica de un elemento */
