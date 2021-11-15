@@ -1,0 +1,46 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: purple;
+  font-family: serif;
+  margin-bottom: 10px;
+}
+
+.title {
+  font-family: monospace;
+}
+.nav {
+  margin-top: 10px;
+  list-style-type: none;
+  padding-left: 0px;
+}
+
+.nav li {
+  display: inline-block;
+}
+
+.nav a {
+  color: white;
+  padding: 25px;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: purple;
+}
+
+.nav .blog {
+  background-color: green;
+}
+
+ul {
+  background-color: red;
+  padding: 10px;
+  overflow: hidden;
+}
+/* * Se estudia la especifidad, estudiando !important (mala práctica), estilos embebidos (el style como atributo dentro de una etiqueta, mala práctica también) los ids (no tan recomendados para css y que son más pesados que una class) y finalmente class y los tags, que resultan siendo los más convenientes para trabajar con CSS. VSC nos ofrece una ayuda con la selectividad posándonos sobre lo que queremos modificar*/
