@@ -1,0 +1,6 @@
+div > p {
+  color: red;
+}
+/* *A la etiqueta p que sea hija directa de una etiqueta div, le agrega el estilo indicado, para el ejemplo puntual, solo aplica en las dos últimas etiquetas p, puesto que las dos primeras son hijas directas de la etiqueta article */
+
+/* *La etiqueta descendiente funciona de manera similar "div p", esto quiere decir que a absolutamente todas las etiquetas p dentro de un div se les aplicará el estilo indicado, sin importar si son padres o no.*/

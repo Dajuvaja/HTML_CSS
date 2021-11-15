@@ -1,0 +1,5 @@
+h3 ~ p {
+  color: red;
+}
+
+/* *Combinador que establece el estilo indicado a todas las etiquetas p (n etiquetas) después de un h3, sin importar si está inmediatamente después o no de la etiqueta h3 */

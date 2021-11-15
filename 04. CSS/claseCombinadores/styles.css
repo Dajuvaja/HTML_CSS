@@ -1,0 +1,5 @@
+h2 + p {
+  color: red;
+}
+
+/* *A todas las etiquetas p que estén inmediatamente después de una h2 les aplica el estilo indicado y si ambos son hijos del mismo padre element */
