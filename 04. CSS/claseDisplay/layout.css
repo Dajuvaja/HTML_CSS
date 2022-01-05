@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  background-color: #950d16;
+}
+
+.udistrital {
+  width: 45%;
+}
+.header-logo,
+.nav,
+.nav-list li {
+  display: inline-block;
+}
+
+.nav {
+  position: absolute;
+  right: 0;
+}
+
+.nav_list li {
+  list-style: none;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 55px;
+}
+
+.nav-list li a:hover {
+  background-color: #ef233c;
+}
+
+.main {
+  height: 475px;
+  background-color: #94d2bd;
+}
+
+.routes {
+  display: inline-block;
+  width: 17%;
+  height: 100%;
+  padding: 10px;
+  background-color: #e9d8a6;
+}
+.routes-images img {
+  width: 55%;
+  display: block;
+  margin: 5px 0;
+  border-radius: 10px;
+  margin-left: 45px;
+}
+
+.alternative-text {
+  text-align: center;
+}
+
+.content {
+  display: inline-block;
+  padding: 10px;
+  position: absolute;
+}
+
+.footer {
+  text-align: center;
+  background-color: #950d16;
+  padding: 1rem;
+  color: white;
+}
