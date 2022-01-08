@@ -5,6 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./layoutflex.css" />
+    <link
+      rel="stylesheet"
+      href="./layoutflexTablet.css"
+      media="only screen and (min-width:768px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./layoutflexDesktop.css"
+      media="only screen and (min-width:1024px)"
+    />
     <title>Flex Layout</title>
   </head>
   <body>
@@ -32,12 +42,20 @@
           <figcaption class="caption-first_image caption">
             Hawkins National Laboratory
           </figcaption>
-          <img src="images/laboratorio.png" alt="Hawkins National Laboratory" />
+          <img
+            src="images/laboratorio.png"
+            class="first-image"
+            alt="Hawkins National Laboratory"
+          />
           <figcaption class="caption-second_image caption">
             <br />
             The Upside Down
           </figcaption>
-          <img src="images/upside_down.png" alt="The Upside Down" />
+          <img
+            src="images/upside_down.png"
+            class="second-image"
+            alt="The Upside Down"
+          />
         </figure>
       </aside>
       <section class="content">
@@ -57,7 +75,9 @@
       </section>
     </main>
     <footer class="footer">
-      <p>Copyright 2022 &copy; | All rights reserved xdddddddd</p>
+      <p class="copyright">
+        Copyright 2022 &copy; | All rights reserved xdddddddd
+      </p>
       <figure class="social-media">
         <img src="images/facebook.png" alt="Facebook Icon" />
         <img src="images/instagram.png" alt="Instagram Icon" />
